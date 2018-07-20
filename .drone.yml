@@ -6,5 +6,5 @@ pipeline:
       - go build
   notify:
     image: plugins/slack
-	webhook: https://hooks.slack.com/services/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
+    webhook: https://hooks.slack.com/services/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
     channel: general
